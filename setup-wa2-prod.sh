@@ -10,3 +10,5 @@ git clone https://camilin87@bitbucket.org/camilin87/wa2.git
 cd wa2
 git checkout develop
 git pull
+
+rake configure_pyenv
