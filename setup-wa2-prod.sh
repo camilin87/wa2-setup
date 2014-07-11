@@ -13,4 +13,4 @@ cd wa2
 git checkout $1
 git pull
 
-rake configure_pyenv
+rake configure_pyenv_linux
