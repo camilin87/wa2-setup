@@ -10,7 +10,7 @@ yes N | sudo gem install rake
 
 git clone https://camilin87@bitbucket.org/camilin87/wa2.git
 cd wa2
-git checkout $1
 git pull
+git checkout $1
 
 rake -f Rakefile-prod.rb configure_pyenv_linux
